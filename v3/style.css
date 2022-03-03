@@ -2,6 +2,7 @@
 
 :root {
   --brown: #fca5a5;
+ --app-height: 100%;
 }
 
 * {
@@ -17,6 +18,7 @@ body {
 }
 .wrapper {
   height: 100vh;
+height: var(--app-height);
   width: 100%;
   padding: 0;
   margin: 0 auto;
@@ -25,7 +27,8 @@ body {
 
 .img-bg {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+height: -webkit-fill-available;
   object-fit: cover;
   position: relative;
 }
