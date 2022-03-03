@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --yellow: #ff9900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  padding: 0 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first_wrap {
+  text-align: center;
+}
+
+.first_wrap h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.first_wrap h2 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.second_wrap {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.third_wrap {
+  width: 75%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  color: black;
+}
+
+.third_wrap a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  background-color: var(--yellow);
+  padding: 10px 0;
+  text-align: center;
+  color: black;
+  box-shadow: 5px 5px 0 2px black;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 998px) {
+  .wrapper {
+    max-width: 672px;
+    padding: 0;
+  }
+}
