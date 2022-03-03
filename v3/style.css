@@ -27,7 +27,8 @@ height: -webkit-fill-available;
 
 .img-bg {
   width: 100%;
-  height: auto;
+  height: 100vh;
+height: -webkit-fill-available;
   object-fit: cover;
   position: relative;
 }
