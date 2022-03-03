@@ -13,15 +13,16 @@
 body {
   font-family: "Montserrat", sans-serif;
   position: relative;
+  height: -webkit-fill-available;
 }
 
 .wrapper {
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   width: 100%;
   padding: 0;
   margin: 0 auto;
   position: relative;
-  background-color: red;
 }
 
 .img-bg {
