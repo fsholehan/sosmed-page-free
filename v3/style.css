@@ -2,6 +2,7 @@
 
 :root {
   --brown: #fca5a5;
+ --app-height: 100%;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
 
 .wrapper {
   height: 100vh;
-height: -webkit-fill-available;
+height: var(--app-height);
   width: 100%;
   padding: 0;
   margin: 0 auto;
