@@ -84,6 +84,12 @@ body {
   margin: 20px 0;
   border-radius: 8px;
   text-transform: uppercase;
+  border: 2px solid var(--fuchsia);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: transparent;
 }
 
 @media screen and (min-width: 998px) {
